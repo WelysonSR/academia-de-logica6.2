@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotel Trybe</title>
+</head>
+
+<body>
+  <header class="header-trybe">
+    <img src="https://blog.betrybe.com/wp-content/uploads/2021/11/51808343.png" alt="">
+    <h1>Hotel Trybe</h1>
+  </header>
+
+  <main>
+    <section class="hotel-form">
+      <label for="inputCheckin">Check-in</label>
+      <input type="date" name="" id="inputCheckin" class="inputCheckin">
+
+      <label for="inputCheckout">Check-out</label>
+      <input type="date" name="" id="inputCheckout" class="inputCheckout">
+    </section>
+
+    <section class="hotel-form">
+      <label for="">Quartos:</label>
+      <input type="radio" name="quartos" id="comum" class="bedroom" value="Comum">
+      <label for="comum">Comum</label>
+
+      <input type="radio" name="quartos" id="club" class="bedroom" value="Club">
+      <label for="club">Club</label>
+
+      <input type="radio" name="quartos" id="luxo" class="bedroom" value="Luxo">
+      <label for="luxo">Luxo</label>
+    </section>
+
+    <section class="hotel-form">
+      <label for="">Pessoas</label>
+      <select name="" id="" class="nPessoas">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </section>
+
+    <section class="hotel-form">
+      <textarea name="" id="" cols="50" rows="10" placeholder="Observação" class="obs"></textarea>
+      <button id="submit-btn">Reservar</button>
+    </section>
+
+    <section class="list-section">
+      <h3>Lista de reservas</h3>
+
+      <ol></ol>
+
+      <button id="clear-btn">Limpar</button>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
